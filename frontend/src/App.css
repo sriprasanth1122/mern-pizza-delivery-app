@@ -1,0 +1,106 @@
+body {
+    background-color: rgb(253, 232, 236);
+}
+
+.nav{
+margin-right: 10px;
+}
+
+/* width */
+::-webkit-scrollbar {
+    display: none;
+}
+
+/* .cards {
+    width: "22rem";
+    margin-top: "30px";
+    object-fit: "cover";
+    border-radius: "15px";
+    box-shadow: "rgba(255, 0, 0, 0.8) 12px 8px 12px";
+    background-color: "rgb(172, 0, 29)";
+    border: "1px solid rgb(172, 0, 29)";
+} */
+
+.navbar {
+    background-color: white;
+    /* font-family: Arial, Helvetica, sans-serif; */
+
+}
+
+.navh3 {
+    font-weight: bold;
+    font-size: 30px;
+    font-family: Cursive;
+}
+
+.navfont {
+    color: rgb(38, 36, 36);
+    font-family: cursive;
+    font-size: 18px;
+    font-weight: 600;
+    padding-right: 20px;
+}
+
+.cardPrice {
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(62, 58, 58);
+    font-family: cursive;
+}
+
+.rupee {
+    font-size: 17px;
+}
+
+.cardSelect {
+    padding: 3px;
+    padding-right: 25px;
+    margin-bottom: 20px;
+}
+
+.cardName {
+    font-family: cursive;
+    font-weight: 600;
+    font-size: 30px;
+    color: rgb(62, 58, 58);
+    margin-bottom: 23px;
+}
+
+.cardVarientQuantity {
+    font-weight: 600;
+    margin-bottom: 13px;
+    font-size: 17px;
+}
+
+.design {
+    box-shadow: 5px 10px 10px #999999;
+}
+
+.loginContainer {
+    box-shadow: 5px 10px 10px #999999;
+    border-width: 5px;
+    border-radius: 20px;
+    margin-top: 50px;
+    background-color: whitesmoke;
+}
+
+.registerContainer {
+    box-shadow: 5px 10px 10px #999999;
+    border-width: 5px;
+    border-radius: 20px;
+    margin-top: 25px;
+    background-color: whitesmoke;
+}
+
+.adminLoginContainer {
+    box-shadow: 5px 10px 10px #999999;
+    border-width: 5px;
+    border-radius: 20px;
+    margin-top: 50px;
+    background-color: whitesmoke;
+}
+
+.navDropDown{
+    color: #999999;
+}
+
