@@ -29,7 +29,7 @@ app.use("/api/pizzas", require("./routes/pizzaRoutes"));
 app.use("/api/users", require('./routes/userRoutes'));
 app.use("/api/orders", require('./routes/orderRoutes'))
 app.get("/",(req,res) =>{
-    res.send('<h1>Take a Risk</h1>');
+    res.send('<h1>Server Connected Successfully</h1>');
 })
 
 
