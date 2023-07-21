@@ -17,11 +17,14 @@ function TopBar() {
           <Navbar.Brand>
             <Image src={img} alt="logo" style={{ height: "50px" }} />
           </Navbar.Brand>
+
           <Navbar.Brand >
             <h3 className="navh3" style={{ color: "rgb(0, 0, 0)" }}>Pizza Hut</h3>
           </Navbar.Brand>
-          <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-          <Navbar.Collapse id="responsive-navbar-nav">
+
+          <Navbar.Toggle className="color-bg" variant="dark" aria-controls="responsive-navbar-nav" />
+
+          <Navbar.Collapse  variant="dark" id="responsive-navbar-nav">
             <Nav className="ms-auto">
               <LinkContainer to="/">
                 <Nav.Link><span className="navfont">Home</span></Nav.Link>
@@ -53,8 +56,8 @@ function TopBar() {
                   {currentUser.isAdmin === false ? (
                     <LinkContainer to="/cart">
                       <Nav.Link>
-                        <span className="navfont">
-                          Cart&nbsp;{cartState.cartItems.length}
+                        <span className="navfont navfontRed">
+                          Cart {cartState.cartItems.length}
                         </span>
                       </Nav.Link>
                     </LinkContainer>
@@ -71,7 +74,7 @@ function TopBar() {
               ) : (
                 <>
                   <LinkContainer to="/login">
-                    <Nav.Link><span className="navfont">Login</span></Nav.Link>
+                    <Nav.Link><span className="navfont navfontRed">Login</span></Nav.Link>
                   </LinkContainer>
                   <LinkContainer to="/register">
                     <Nav.Link><span className="navfont">Register</span></Nav.Link>

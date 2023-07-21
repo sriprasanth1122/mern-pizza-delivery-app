@@ -1,4 +1,5 @@
-export const addToCart = (pizza, quantity, varient) => (dispatch, getState) => {
+export const addToCart = (pizza, quantity, varient) => (dispatch,  getState) => {
+
   var cartItem = {
     name: pizza.name,
     _id: pizza._id,
@@ -8,6 +9,7 @@ export const addToCart = (pizza, quantity, varient) => (dispatch, getState) => {
     prices: pizza.prices,
     price: pizza.prices[0][varient] * quantity,
   };
+
   if (cartItem.quantity > 10) {
     alert("Maximum 10 pizzas only you can add");
   } else {

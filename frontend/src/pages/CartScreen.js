@@ -12,19 +12,16 @@ function CartScreen() {
   const dispatch = useDispatch();
   const subTotal = cartItems.reduce((x, item) => x + item.price, 0);
 
-  
-  
+
+
   return (
     <>
-    {
-      console.log(cartItems)
-    }
-    
-      <Container className="cartscreen mt-4">
-        
+
+      <Container className="cartscreen mt-5">
+
         <Row>
           <Col md={6}>
-            <h1 className="text-center text-dark mb-5" style={{ color: 'black' }} >My Cart</h1>
+            <h1 className="text-center text-dark mb-5" >My Cart</h1>
             <Row className="text-dark">
               {cartItems.map((item) => (
                 <>
@@ -86,14 +83,21 @@ function CartScreen() {
               ))}
             </Row>
           </Col>
+
           <Col md={2}>
           </Col>
+
           <Col className="text-dark" md={3}>
-            <h1 className="text-center mb-5">Payment Info</h1>
-            <h4>Total Amount</h4>
-            <h4 className="mb-4"><FaRupeeSign />{subTotal}/-</h4>
-            <Checkout subTotal={subTotal} />
+
+            <div className="cartscreenPaymentInfo">
+              <h1 className="text-center mb-5">Payment Info</h1>
+              <h4>Total Amount</h4>
+              <h4 className="mb-4"><FaRupeeSign />{subTotal}/-</h4>
+              <Checkout subTotal={subTotal} />
+            </div>
+
           </Col>
+
         </Row>
       </Container>
     </>

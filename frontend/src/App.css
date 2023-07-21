@@ -2,8 +2,8 @@ body {
     background-color: rgb(253, 232, 236);
 }
 
-.nav{
-margin-right: 10px;
+.nav {
+    margin-right: 10px;
 }
 
 /* width */
@@ -35,17 +35,32 @@ margin-right: 10px;
 
 .navfont {
     color: rgb(38, 36, 36);
-    font-family: cursive;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 18px;
     font-weight: 600;
     padding-right: 20px;
+}
+
+.navfontRed{
+    color: rgb(255, 61, 61);
+}
+
+.cartscreenPaymentInfo {
+    background-color: whitesmoke;
+    padding: 30px;
+    padding-bottom:50px ;
+    width: auto;
+    border-radius: 10px;
+    position: sticky;
+    top: 130px;
+
 }
 
 .cardPrice {
     font-size: 20px;
     font-weight: 600;
     color: rgb(62, 58, 58);
-    font-family: cursive;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .rupee {
@@ -59,7 +74,7 @@ margin-right: 10px;
 }
 
 .cardName {
-    font-family: cursive;
+    font-family: Arial, Helvetica, sans-serif;
     font-weight: 600;
     font-size: 30px;
     color: rgb(62, 58, 58);
@@ -100,7 +115,10 @@ margin-right: 10px;
     background-color: whitesmoke;
 }
 
-.navDropDown{
+.navDropDown {
     color: #999999;
 }
 
+.color-bg{
+    background-color: rgb(74, 74, 74);
+}

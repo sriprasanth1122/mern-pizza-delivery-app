@@ -31,8 +31,8 @@ function Login() {
     <>
       <Container className="loginContainer">
         <Row>
+          
           <Col md={2}>
-
           </Col>
 
           <Col
@@ -94,8 +94,8 @@ function Login() {
           </Col>
 
           <Col md={2}>
-
           </Col>
+          
         </Row>
       </Container>
     </>

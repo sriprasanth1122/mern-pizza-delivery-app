@@ -15,7 +15,7 @@
         width: 100% !important;
         display: flex !important;
         flex-direction: column !important;
-        flex-wrap: wrap!important;
-        
+        flex-wrap: wrap !important;
     }
+
 }
