@@ -1,5 +1,5 @@
 
-export const host = "https://pizza-app-4531.onrender.com";
+export const host = "https://pizza-delivery-app-x8jv.onrender.com";
 
 export const getPizzaData = `${host}/api/pizzas/getAllPizzas`;
 export const addNewPizza = `${host}/api/pizzas/addpizza`;
